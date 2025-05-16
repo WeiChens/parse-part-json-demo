@@ -1,0 +1,58 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .card {
+  max-width: 100vw;
+  overflow-x: auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: content-box;
+  background-color: #0b1c2c;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box .card .dir {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  font-size: 17px;
+  text-align: center;
+}
+.box .card .dir svg {
+  transform: scaleX(1.2);
+}
+.box .card .input-box {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: content-box;
+}
+.box .card .input-box textarea {
+  background-color: #1a1919;
+  resize: none;
+  width: 400px;
+  height: 80%;
+  border: 1px solid #6489ab;
+  outline: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.box .card .out-box {
+  min-height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
