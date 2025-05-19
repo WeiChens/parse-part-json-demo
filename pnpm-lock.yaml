@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       parse-part-json:
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: 1.1.0
+        version: 1.1.0
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -1058,8 +1058,8 @@ packages:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
 
-  parse-part-json@1.0.2:
-    resolution: {integrity: sha512-fMd4KLhc8NVUdwb3n27QZX6c4CEKrZuWKkIRD2ORIrjD6Qihe1eyUBR2tYnBNL8aWT5r7QttOVO7CBgI7Lo3ag==}
+  parse-part-json@1.1.0:
+    resolution: {integrity: sha512-hDlegVMG74VpUaEkDo6UmRMu+pNR9XtWRyvGpn8vAlPqj1aXzjcE2kUqxZNZhfSybQe6qIo2BstoCHa4fNsxvw==}
 
   parseurl@1.3.3:
     resolution: {integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==}
@@ -2338,7 +2338,7 @@ snapshots:
     dependencies:
       callsites: 3.1.0
 
-  parse-part-json@1.0.2: {}
+  parse-part-json@1.1.0: {}
 
   parseurl@1.3.3: {}
 
